@@ -19,7 +19,7 @@
     
 }
 
-.navbar{
+.ali{
     align-items: center;
     /* padding: 5px 0; */
     /* line-height: 50px; */
@@ -93,6 +93,214 @@ i{
     padding-bottom: 20px;
 }
 .order-now button{
+    border-radius: 4px;
+    padding: 10px 40px;
+    background-color: #f6d365;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* section number two................................. */
+
+.sec-two{
+    background-color: #f6d365;
+}
+
+.sec-two-main .sec-two-text h3{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-two-text{
+    padding: 50px 0;
+}
+.sec-two-text p{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.card .col-30{
+    width: 30%;
+    padding: 0 0 98px 0;
+    /* border: solid black; */
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card p{
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* section number three.............................. */
+
+.sec-three{
+    background-color: #333333;
+    padding: 50px 0;
+}
+
+.sec-three-main .col-30{
+    width: 30%;
+    /* border: 1px solid white; */
+}
+
+.sec-three-main .col-50{
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.sec-three-main img{
+    width: 100%;
+}
+
+.sec-three h4{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.sec-three p{
+    width: 95%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+}
+
+.setup{
+    padding: 20px 0;
+}
+
+.order-now-2 button{
+    border-radius: 4px;
+    padding: 10px 40px;
+    background-color: #f6d365;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* Section number four................................ */
+
+.sec-four{
+    background-color: #f6d365;
+}
+
+.sec-four-main h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: sans-serif;
+    color:  black;
+}
+
+.sec-four-main p{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(6, 6, 6);
+}
+
+.sec-four-card .col-30{
+    width: 30%;
+    padding: 98px 0 98px 0;
+    border: 10px solid black;
+}
+
+.sec-four-card .main-t{
+    text-align: center;
+    /* padding: 10px 0; */
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-four-card .sub-t{
+    font-size: 40px;
+    padding: 20px 0 0 0 ;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec-four-card{
+    padding: 30px 0;
+}
+
+.padd-setup{
+    padding: 60px 0 90px 0;
+}
+
+/* section number five................................ */
+
+.sec-five{
+    background-color: #333333;
+    padding: 50px 0;
+}
+
+.sec-five-main .col-30{
+    width: 30%;
+    /* border: 1px solid white; */
+}
+
+.space{
+    justify-content: space-evenly;
+}
+.sec-five-main .col-50{
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.sec-five-main img{
+    width: 100%;
+}
+
+.sec-five h6{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.sec-five p{
+    width: 95%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+}
+
+.setup{
+    padding: 20px 0;
+}
+
+.order-now-2 button{
     border-radius: 4px;
     padding: 10px 40px;
     background-color: #f6d365;
