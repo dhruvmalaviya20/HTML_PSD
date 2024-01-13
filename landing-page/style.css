@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.sec-one {
+    background-color: #efefef;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.container {
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jsc {
+    justify-content: space-between;
+}
+
+.ali {
+    align-items: center;
+}
+
+/* Navigation bar.................................. */
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 90%;
+}
+
+.link{
+    display: none;
+}
+
+.link ul li {
+    /* display: inline-block; */
+    /* margin: 25px 15px 25px 15px; */
+}
+
+.link ul li a {
+    color: #272727;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+i {
+    font-size: 30px;
+}
+
+/* Columns width...................................... */
+
+.col-40 {
+    width: 100%;
+}
+
+.col-60 {
+    z-index: 1;
+    width: 100%;
+}
+
+/* Main section first column (col-30).................................... */
+
+.head-1 {
+    padding: 0 0 40px 0;
+}
+
+.text-1 {
+    width: 32%;
+    /* margin: 0 auto; */
+}
+
+.col-40 .text {
+    width: 65%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-40 button {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 100px 0;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px 0 100px 0;
+}
+
+.padd {
+    padding: 100px 0 55px 0;
+}
+
+.padd i {
+    margin: 0 10px;
+}
+
+.padd h6 {
+    font-size: 20px;
+}
+
+/* Main section sub columns (col-35, col-65) of second column (col-60)......................................... */
+
+.col-60 img {
+    width: 100%;
+}
+
+.text h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-size: 25px;
+    line-height: 75px;
+}
+
+.home-sec-main {
+    align-items: center;
+}
+
+.text {
+    z-index: 5;
+    padding: 100px 0 0 0;
+}
+
+.pos .sec-one-pos1 {
+    width: 35%;
+}
+
+.pos .sec-one-pos2 {
+    width: 20%;
+}
+
+/* position part..................................................... */
+.sec-one-pos {
+    position: absolute;
+}
+
+.sec-one-pos1 {
+    top: 59px;
+    left: 104px;
+}
+
+.sec-one-pos2 {
+    top: 74px;
+    left: 129px;
+}
+
+
+
+/* ==========media qurery============ */
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+.container{
+    width: 540px;
+    margin: 0 auto;
+}
+
+
+
+ }
+
+/* ========================================= */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container{
+        width: 740px;
+        margin: 0 auto;
+    }
+
+    .col-40 {
+        width: 100%;
+    }
+    
+    .col-60 {
+        z-index: 1;
+        width: 100%;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+/* ========================================= */
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container{
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+    
+    .col-60 {
+        z-index: 1;
+        width: 60%;
+    }
+ }
+
+
+
+
+
+
+
+
+/* ========================================= */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+    
+    .col-60 {
+        z-index: 1;
+        width: 60%;
+    }
+
+
+
+}
+
+/* ========================================= */
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .container{
+        width: 1340px;
+        margin: 0 auto;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+    
+    .col-60 {
+        z-index: 1;
+        width: 60%;
+    }
+
+
+
+
+
+    .logo {
+        width: 10%;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    
+    .link ul li {
+        display: inline-block;
+        margin: 25px 15px 25px 15px;
+    }
+    
+    .link ul li a {
+        color: #272727;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    
+    i {
+        font-size: 30px;
+    }
+    
+    /* Columns width...................................... */
+    
+    .col-40 {
+        width: 100%;
+    }
+    
+    .col-60 {
+        z-index: 1;
+        width: 100%;
+    }
+    
+    /* Main section first column (col-30).................................... */
+    
+    .head-1 {
+        padding: 0 0 40px 0;
+    }
+    
+    .text-1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .col-40 .text {
+        width: 65%;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .text {
+    
+        padding: 100px 0 0 0;
+        margin-top: 80px;
+    }
+    
+    .col-40 button {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 0 100px 0;
+        border: none;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 20px 0 100px 0;
+    }
+    
+    .padd {
+        padding: 100px 0 55px 0;
+    }
+    
+    .padd i {
+        margin: 0 10px;
+    }
+    
+    .padd h6 {
+        font-size: 20px;
+    }
+    
+    /* Main section sub columns (col-35, col-65) of second column (col-60)......................................... */
+    
+    .col-60 img {
+        width: 100%;
+    }
+    
+    .text h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #222222;
+        font-size: 100px;
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 75px;
+    }
+    
+    .home-sec-main {
+        align-items: center;
+    }
+    
+    .text {
+        z-index: 5;
+        padding: 100px 0 0 0;
+    }
+    
+    .pos .sec-one-pos1 {
+        width: 35%;
+    }
+    
+    .pos .sec-one-pos2 {
+        width: 20%;
+    }
+    
+    /* position part..................................................... */
+    .sec-one-pos {
+        position: absolute;
+    }
+    
+    .sec-one-pos1 {
+        top: 85px;
+        left: 485px;
+    }
+    
+    .sec-one-pos2 {
+        top: 100px;
+        left: 600px;
+    }
+    
+    
+    
+ }
+/* ========================================= */

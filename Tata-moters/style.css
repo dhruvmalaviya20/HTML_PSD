@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec-one{
+    overflow: hidden;   
+}
+.sec-one .container{
+    width: 1390px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jsc{
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.head-1{
+    position: fixed;
+    background-color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+.sec1-menu ul li{
+    display: inline-block;
+}
+.sec1-menu ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0000007e;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.icon{
+    border-right: 2px solid;
+    padding-right: 20px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.498);
+}
+.main-logo{
+    width: 30%;
+}
+.main-logo img{
+    width: 38%;
+}
+.sub-logo{
+    width: 7%;
+}
+.sub-logo img{
+    width: 100%;
+}
+.sec1-main-text{
+    color: black;
+}
+
+/* home section number one.......................................................................................................................................... */
+
+.home-sec{
+    background-image: url(./image/sec1-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    padding: 80px 0 0 0;
+}
+.sec1-text-part{
+    padding: 70px 0 90px 0;
+}
+.main-home-text{
+    display: block;
+    text-align: center;
+}
+.main-home-text{
+    font-size: 26px;
+    font-weight: 400;
+    color: #030352;
+    font-family: 'Roboto', sans-serif;
+}
+.sec-one-box{
+    display: inline-block;
+    padding: 10px 0 100px 0;
+    text-align: center;
+}
+.sec-one-box p{
+    background-color: #4e4e85;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 34px;
+    color: white;
+    width: 50%;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+.Out-Now-On-Linkdin{
+    text-align: center;
+    padding: 20px 0 35px 0;
+}
+.Out-Now-On-Linkdin button{
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #030352;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: transparent;
+}
+
+/* Section number two............................................ */
+
+.sec-two .col-33{
+    width: 33.33%;
+    height: 700px;
+}
+.sec-two .col-33:hover{
+    width: 100%;
+    transition: 1.50s;
+}
+.img1{
+    background-image: url(./image/sec2-img1.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.img2{
+    background-image: url(./image/sec2-img2.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+
+}
+.img3{
+    background-image: url(./image/sec2-img3.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.align-end{
+    align-items: flex-end;
+}
+.hov-content{
+    background-color: #030352ad;
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.hov-content p{
+    font-size: 20px;
+}
+.hov-content span{
+    font-size: 15px;
+    padding: 10px 0 0 0;
+}
+
+/* Section number three....................................... */
+.sec-three .container{
+    width: 1175px;
+    margin: 0 auto;
+}
+.sec-three{
+    background-image: url(./image/dots-bg-img.png),linear-gradient( rgb(223, 216, 216), rgb(223, 216, 216));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.sec-three-main{
+    padding: 80px 0 100px 0;
+}
+.sec3-text-buttons-cards{
+    background-color: rgb(223, 216, 216)
+
+}
+.sec3-text{  
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 25px 0 0 0;
+}
+
+input[type="radio"] {
+    display: none;
+ }
+ 
+ input[type="radio"] + div {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid #09090984;
+    border-radius: 100%;
+    margin: 10px;
+ }
+ 
+ input[type="radio"] + div:hover {
+     border-color: #182d57;
+ }
+ 
+ input[type="radio"]:checked + div {
+     background:rgb(35, 38, 120);
+ }
+ .buttons{
+    text-align: center;
+    padding: 10px 0;
+ }
+ .buttons label{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+ }
+.col-31{
+    width: 31%;
+}
+.sec3-imgs{
+    width: 100%;
+}
+.sec3-imgs img{
+    width: 100%;
+    height: 230px;
+    display: block;
+}
+.info{
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 15px 25px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec3-aerrow-buttons{
+    text-align: center;
+    padding: 15px 0;
+}
+.sec3-aerrow-buttons button{
+    color: white;
+    background-color: #030352;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 20px;
+}
+
+/* Section number four.............................................. */
+
+.sec-four .container{
+    width: 1350px;
+    margin: 0 auto;
+}
+.sec-four{
+    background-color: #030352;
+}
+.sec-four-main{
+    padding: 80px 0 60px 0;
+}
+.sec4-text{  
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 25px 0 0 0;
+}
+ .sec4-buttons{
+    text-align: center;
+    padding: 10px 0;
+ }
+ .sec4-cards{
+    padding: 35px 0;
+ }
+ .sec4-buttons label{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+ }
+ .sec4-buttons input + div{
+    border-color: white;
+ }
+ .sec4-buttons input + div:hover{
+    background-color: white;
+ }
+ .sec4-buttons input[type="radio"]:checked + div {
+    background: white;
+}
+.col-22{
+    width: 22%;
+}
+.sec4-imgs{
+    width: 100%;
+}
+.sec4-imgs img{
+    width: 100%;
+    padding: 0 0 20px 0;
+    background-color: white;
+    display: block;
+}
+.sec4-info{
+    background-color: #3b3ba0;
+    color: white;
+    font-size: 17px;
+    padding: 20px 15px 25px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.sec4-info .text-padd{
+    padding: 10px 0;
+}
+.aerrow-buttons{
+    text-align: center;
+    padding: 15px 0;
+}
+.aerrow-buttons button{
+    background-color: white;
+    color: #030352;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 20px;
+}
+
+/* section number five............................................................. */
+
+.sec-five{
+    background-image: url(./image/dots-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.sec-five-main{
+    padding: 0 0 45px 0;
+}
+.sec-five .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sec5-text{
+    padding: 45px 0 20px 0;
+}
+.sec5-text h4{
+    margin: 0 auto;
+    width: 15%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    background-color: white;
+}
+.sec5-text p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.sec5-main-img{
+    display: block;
+    margin: 0 auto;
+    width: 83%;
+    background-color: white;
+}
+.sec5-cards .col-33{
+    width: 33%;
+}
+.sec5-cards{
+    background-color: white;
+    padding: 30px;
+}
+.sec5-card-img img{
+    width: 100%;
+}
+
+/* Section number six (FOOTER).......................................... */
+
+.sec-six{
+    background-image: url(./image/dots-bg-img.png),linear-gradient( rgb(223, 216, 216), rgb(223, 216, 216));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.sec-six .container{
+    width: 1175px;
+    margin: 0 auto;
+}
+.sec-six .col-40{
+    width: 40%;
+}
+.sec-six .col-20{
+    width: 20%;
+}
+.sec-six .footer-text p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+    font-size: 18px;
+    color: rgba(52, 81, 246, 0.687);
+    padding: 20px 0 0 0;
+}
+.sec-six .footer-text span{
+    /* display: inline-block; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.677);
+}
+.footer-head-text , .footer-imp-text{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+.footer-imp-text p a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.sec-six ul li{
+    list-style: none;
+}
+.sec-six .main-a ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 10px 0;
+}
+.sec-six .sub-a ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.606);
+    padding: 5px 0;
+}
+.main-a{
+    padding: 20px 0 0 0;
+}
+.bg-color{
+    background-color: rgb(223, 216, 216);
+}

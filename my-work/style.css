@@ -7,7 +7,7 @@
 /* section number one................................................. */
 
 .container{
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -15,8 +15,8 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.438)), url(../my-work/img/main-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 800px; */
-    
+    background-position: center center;
+    overflow: hidden;
 }
 
 .ali{
@@ -35,10 +35,12 @@
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .jsc{
     justify-content: space-between;
+    /* justify-content: space-evenly; */
 }
 
 .link ul li{
@@ -106,6 +108,8 @@ i{
 
 .sec-two{
     background-color: #f6d365;
+    position: relative;
+    overflow: hidden;
 }
 
 .sec-two-main .sec-two-text h3{
@@ -129,7 +133,7 @@ i{
     color: rgb(0, 0, 0);
 }
 .card .col-30{
-    width: 30%;
+    width: 100%;
     padding: 0 0 98px 0;
     /* border: solid black; */
 }
@@ -149,21 +153,59 @@ i{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+/* -----sec-two image positions----- */
+.s2-pos{
+    position: absolute;
+}
+.i-two-1{
+    top: 40px;
+    left: -70px;
+}
+.i-two-2{
+    top: 25px;
+    left: 250px;
+}
+.i-two-3{
+    top: 30px;
+    right: 300px;
+}
+.i-two-4{
+    top: 40px;
+    right: 50px;
+}
+.i-two-5{
+    /* z-index: -1; */
+    bottom: 50px;
+    left: 20px;
+}
+.i-two-6{
+    bottom: 25px;
+    left: 450px;
+}
+.i-two-7{
+    bottom: 30px;
+    right: 450px;
+}
+.i-two-8{
+    bottom: 40px;
+    right: -80px;
+}
 
 /* section number three.............................. */
 
 .sec-three{
     background-color: #333333;
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .sec-three-main .col-30{
-    width: 30%;
+    width: 100%;
     /* border: 1px solid white; */
 }
 
 .sec-three-main .col-50{
-    width: 50%;
+    width: 100%;
     /* border: 1px solid white; */
 }
 
@@ -206,6 +248,7 @@ i{
 
 .sec-four{
     background-color: #f6d365;
+    overflow: hidden;
 }
 
 .sec-four-main h5{
@@ -228,7 +271,7 @@ i{
 }
 
 .sec-four-card .col-30{
-    width: 30%;
+    width: 100%;
     padding: 98px 0 98px 0;
     border: 10px solid black;
 }
@@ -260,10 +303,11 @@ i{
 .sec-five{
     background-color: #333333;
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .sec-five-main .col-30{
-    width: 30%;
+    width: 100%;
     /* border: 1px solid white; */
 }
 
@@ -271,7 +315,7 @@ i{
     justify-content: space-evenly;
 }
 .sec-five-main .col-50{
-    width: 50%;
+    width: 100%;
     /* border: 1px solid white; */
 }
 
@@ -317,10 +361,12 @@ i{
     background-image: linear-gradient(rgba(255, 255, 255, 0.792), rgba(255, 255, 255, 0.732)), url(../my-work/img/main-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    overflow: hidden;
 }
 
 .image{
-    width: 200px;
+    width: 30%;
     margin: 0 auto;
     padding: 100px 0 90px 0;
 }
@@ -351,4 +397,257 @@ i{
 
 .title-padd{
     padding-bottom: 70px;
+}
+
+/* section number seven......................... */
+
+.sec-seven{
+    background-color: #f6d365;
+    overflow: hidden;
+}
+
+.sec-seven-main{
+    padding: 100px 0;
+}
+.sec-seven-sub-text p{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0 80px 0;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+.sec-seven-main-text h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+.input-box input{
+    /* display: inline-block; */
+    width: 30%;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+}
+
+.input-box{
+    text-align: center;
+    position: relative;
+    padding: 0 0 100px 0;
+    justify-content: center;
+}
+
+.input-box button{
+    padding: 12px;
+    margin-left: -5px;
+    text-align: center;
+    width: 100px;
+    border-radius: 0 4px 4px 0;
+    background-color: #333333;
+    color: white;
+    border: none;
+}
+
+.padding{
+    padding: 65px 0;
+}
+
+/* section number eight............................... */
+
+.sec-eight{
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.sec-eight-main{
+    color: white;
+    padding: 100px 0;
+}
+.sec-eight-main .col-30{
+    width: 30%;
+}
+.sec-eight-col-60{
+    width: 60%;
+}
+.sec-eight-col-60 .col-30{
+    width: 30%;
+    /* justify-content: space-evenly; */
+}
+
+.sec-eight-main .col-30 h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-eight-main .col-30 p{
+    padding: 30px 0;
+    width: 85%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-eight-main .col-30 i{
+    font-size: 25px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.sec-eight-col-60 .col-30 .main-h2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-eight-col-60 .col-30 .sub-h2 h2{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.sub-h2{
+    padding: 20px 0 0 0;
+}
+
+.padd-set{
+    padding: 100px 0;
+}
+
+.sec-eight-col-60 .col-30 .main-h3 h3{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-eight-col-60 .col-30 .sub-h3 h3{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.sub-h3{
+    padding: 20px 0 0 0;
+}
+
+.sec-eight-col-60 .col-30 .main-h4 h4{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-eight-col-60 .col-30 .sub-h4 h4{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.sub-h4{
+    padding: 20px 0 0 0;
+}
+
+
+/* @media quary part............................................................................................ */
+
+@media(min-width:768px){
+    .container{
+        width: 718px;
+    }
+    .card .col-30{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .sec-three-main .col-30{
+        width: 30%;
+    }
+    .sec-three-main .col-50{
+        width: 50%;
+    }
+    .sec-four-card .col-30{
+        width: 45%;
+        margin: 20px auto;
+    }
+    .sec-five-main .col-30{
+        width: 30%;
+    }
+    .sec-five-main .col-50{
+        width: 50%;
+    }
+    .sec-eight-main .col-30{
+        width: 30%;
+    }
+    .sec-eight-main .col-60{
+        width: 60%;
+    }
+    .sec-eight-col-60 .col-30{
+        width: 30%;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        width: 942px;
+    }
+    .card .col-30{
+        width: 30%;
+    }
+    .sec-three-main .col-30{
+        width: 30%;
+    }
+    .sec-three-main .col-50{
+        width: 50%;
+    }
+    .sec-four-card .col-30{
+        width: 30%;
+    }
+    .sec-five-main .col-30{
+        width: 30%;
+    }
+    .sec-five-main .col-50{
+        width: 50%;
+    }
+    .sec-eight-main .col-30{
+        width: 30%;
+    }
+    .sec-eight-main .col-60{
+        width: 60%;
+    }
+    .sec-eight-col-60 .col-30{
+        width: 30%;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+        width: 1150px;
+    }
+    .card .col-30{
+        width: 30%;
+    }
+    .sec-three-main .col-30{
+        width: 30%;
+    }
+    .sec-three-main .col-50{
+        width: 50%;
+    }
+    .sec-four-card .col-30{
+        width: 30%;
+    }
+    .sec-five-main .col-30{
+        width: 30%;
+    }
+    .sec-five-main .col-50{
+        width: 50%;
+    }
+    .sec-eight-main .col-30{
+        width: 30%;
+    }
+    .sec-eight-main .col-60{
+        width: 60%;
+    }
+    .sec-eight-col-60 .col-30{
+        width: 30%;
+    }
 }

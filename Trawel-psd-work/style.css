@@ -1,0 +1,620 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/* section number one----------------------------------------------------------------------------------------------------------- */
+
+ .sec-one {
+     background-color: #e9e7e7;
+ }
+ .navbar {
+     align-items: center;
+     padding: 40px 0;
+ }
+ .row {
+     display: flex;
+ }
+ .jsc {
+     justify-content: space-between;
+}
+ .container {
+     width: 1200px;
+     margin: 0 auto;
+ }
+ .menu ul li {
+     display: inline-block;
+     margin: 30px 60px 30px 0;
+ }
+ .menu ul li a {
+     text-decoration: none;
+     color: #232323;
+     font-family: 'Lato', sans-serif;
+     font-size: 25px;
+ }
+ .contact-us button {
+     border-radius: 4px;
+     border: 3px solid;
+     padding: 15px 40px;
+    font-size: 20px;
+     font-weight: bold;
+ }
+.sec-1-main{
+    padding: 40px 0 100px 0;
+}
+ .sec-1-main .col-40 {
+     width: 40%;
+ }
+ .sec-1-main .col-56 {
+     width: 56%;
+ }
+
+ .sec-1-main .col-56 img {
+     width: 100%;
+ }
+ .sec-1-main .col-40 h1 {
+     font-family: 'Cardo', serif;
+     font-weight: 700;
+     font-size: 90px;
+     color: #232323;
+     letter-spacing: -2px;
+     line-height: 90px;
+ }
+ .sec-1-main .col-40 p {
+     font-family: 'Lato', sans-serif;
+     font-weight: 600;
+     color: #232323;
+     letter-spacing: 0px;
+     font-size: 13px;
+     width: 70%;
+     padding: 10px 0 40px 0;
+ }
+ .reserve-ticket button {
+     font-size: 15px;
+     letter-spacing: -1px;
+     color: #e9e7e7;
+     font-weight: 900;
+     font-family: 'Lato', sans-serif;
+     text-align: center;
+     background-color: #232323;
+     border-radius: 5px;
+     padding: 15px 80px;
+ }
+
+ /* section number two------------------------------------------------------------------------------------------------------------------- */
+
+ .sec-two{
+    background-color: #232323;
+    padding: 50px 0 50px 0;
+    position: relative;
+    overflow: hidden;
+ }
+ .sec-two-text h2{
+    width: 25%;
+    display: inline-block;
+    font-family: 'Cardo', serif;
+     font-weight: 700;
+     font-size: 40px;
+     color: #ffffff;
+     line-height: 40px;
+}
+.sec-two-text{
+   text-align: center;
+}
+.sec-two-text p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-size: 12px;
+    width: 25%;
+    padding: 10px 0 30px 0;
+}
+.my-travel-log button {
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #e9e7e7;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    /* text-align: center; */
+    background-color: #232323;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px 40px;
+}
+
+/* possition part---------------------------------------------- */
+.sec-two-pos{
+    position: absolute;
+}
+.two-pos-1{
+    top: 40px;
+    left: -80px;
+}
+.two-pos-2{
+    right: -30px;
+    bottom: 40px;
+}
+
+/* section number three-------------------------------------------------------------------------------------------------------------------- */
+
+.sec-three{
+    background-color: #e9e7e7;
+    position: relative;
+    overflow: hidden;
+}
+.sec-three-main{
+    padding: 100px 0;
+}
+.sec-three-main .card{
+    padding: 40px 0 100px 0;
+}
+.card .col-30{
+    width: 30%;
+}
+.card .images img{
+    width: 100%;
+}
+.card .line-3 img{
+    padding: 20px 0 0 0;
+}
+.card h3{
+    width: 60%;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-family: 'Cardo', serif;
+}
+.card p{
+    font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     letter-spacing: 1px;
+     font-size: 15px;
+    color: #232323;
+}
+
+/* position part-------------------------------------------------- */
+.s3-pos{
+    position: absolute;
+}
+.pos-i-1{
+    top: -30px;
+    left: -90px;
+}
+.pos-i-2{
+    bottom: 20px;
+    right: -40px;
+}
+
+/* Part-2 of section number three................................................................................................... */
+
+.sec3-part2{
+    background-color: #e9e7e7;
+    padding: 100px 0 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+.sec3-part2-space{
+    padding: 100px 0;
+}
+.sec3-part2-main{
+    display: block;
+    text-align: center;
+}
+.sec3-part2-main h2{ 
+    color: #232323;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Cardo', serif;
+    letter-spacing: -1px;
+    line-height: 60px;
+    font-weight: 900;
+    font-size: 60px;
+    padding: 30px 0;
+}
+.sec3-part2-main p{
+    color: #232323;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -1px;
+    padding: 0 0 60px 0;
+}
+.pos .sec3-part2-2{
+    width: 29%;
+}
+
+/* Position part..................................................... */
+.sec3-part2-pos{
+    position: absolute;
+}
+.sec3-part2-1{
+    bottom: 160px;
+    left: 180px;
+}
+.sec3-part2-2{
+    top: 20px;
+    right: -230px;
+    width: 31%;
+}
+
+/* Part3 of section number three...................................................................................................... */
+
+.sec3-part3{
+    background-color: #e9e7e7;
+    padding: 0 0 40px 0;
+    position: relative;
+}
+.sec3-part3-main .col-45{
+    width: 45%;
+}
+.sec3-part3-main .col-40 img{
+    width: 100%;
+}
+.sec3-part3-main .col-50{
+    width: 50%;
+}
+.text .col-45{
+    width: 45%;
+}
+.text .col-50{
+    width: 50%;
+}
+.bold-text h2{
+    width: 80%;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #232323;
+    line-height: 45px;
+    font-family: 'Cardo', serif;
+    padding: 50px 0 0 0;   
+}
+.normal-text p{
+    font-size: 15px;
+    color: #232323;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+    padding: 60px 0 20px 0;
+}
+.normal-text2 p{
+    font-size: 15px;
+    color: #232323;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+}
+.icon{
+    width: 40%;
+    margin-left: auto;
+    margin-top: 90px;
+}
+.icon img{
+    width: 100%;
+    display: block;
+}
+
+/* position part................................................ */
+.sec3-part3-pos{
+    position: absolute;
+}
+.sec3-part3-pos1{
+    top: 255px;
+    left: 125px;
+}
+
+/* section number four................................................................................................................. */
+
+.sec-four{
+    background-color: #232323;
+    position: relative;
+    overflow: hidden;
+}
+.col-49{
+    width: 50%;
+    padding: 20px 0;
+}
+.col-48{
+    width: 50%;
+    padding: 20px 0;
+}
+.sec-four-main .col-49 .main-text{
+    padding: 0 0 30px 0;
+    color: #e9e7e7;
+    width: 90%;
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 65px;
+    font-family: 'Cardo', serif;
+}
+.sec-four-main .col-49 .sub-text{
+    padding: 50px 0 15px 0;
+    font-size: 30px;
+    color: #e9e7e7;
+    font-family: 'Lato', sans-serif;
+}
+.sec-four-main .col-49 p{
+    color: #e9e7e7;
+    /* padding: 0 0 50px 0; */
+    line-height: 20px;
+    width: 73%;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.pos .sec4-pos{
+    width: 46%;
+}
+.sec-four-main{
+    padding: 100px 0;
+}
+
+/* Position part...................................................... */
+.sec4-pos{
+    position: absolute;
+}
+.sec4-pos-1{
+    bottom: -35px;
+    left: -175px;
+}
+
+/* part of section five.................................................................................................................. */
+
+.sec-five{
+    background-color: #e9e7e7;
+    padding: 50px 0;
+}
+.col-60{
+    width: 60%;
+}
+.col-80{
+    width: 80%;
+}
+.col-30{
+    width: 30%;
+}
+.col-10{
+    width: 10%;
+}
+.col-60 .sec5-main-text{
+    padding: 0 0 100px 0;
+    font-family: 'Cardo', serif;
+    font-size: 54px;
+    color: #232323;
+    letter-spacing: -3px;
+    line-height: 80px;
+    font-weight: 900;
+}
+.colums .col-80 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+}
+.pera-1{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 15px 0;
+}
+.colums{
+    border-bottom: 2px solid;
+    padding: 15px 0;
+}
+.sec-five-main{
+    padding: 100px 0;
+}
+.sec-five-image img{
+    width: 100%;
+}
+
+/* Part two of section number five................................................. */
+
+.sec5-part2{
+    background-color: #e9e7e7;
+    padding: 60px 0;
+    position: relative;
+}
+.sec5-part2-main{
+    padding: 60px 0;
+}
+.sec5-part2-main-text h1{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-family: 'Cardo', serif;
+    font-size: 68px;
+    letter-spacing: -3px;
+    line-height: 70px;
+    font-weight: 900;
+    padding: 0 0 50px 0;
+}
+.col-32{
+    width: 32%;
+}
+.sec5-part2-cards .col-32{
+    border: 2px solid;
+    border-radius: 10px;
+}
+.user-icon{
+    text-align: center;
+}
+.sec5-part2-cards i{
+    font-size: 90px;
+    padding: 55px 0 50px 0;
+}
+.head-five{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -1px;
+    color: #232323;
+}
+.sec5-part2-pera{
+    width: 82%;
+    padding: 15px 0 60px 0;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #232323;
+    font-size: 15px;
+}
+
+/* Postition part................................................. */
+.sec5-part2-pos1{
+    width: 30%;
+}
+.sec5-part2-pos2{
+    width: 4%;
+}
+.sec5-part2-pos3{
+    width: 4%;
+}
+.sec5-part2-pos4 img{
+    width: 45%;
+}
+.s5-p2-pos{
+    position: absolute;
+}
+.sec5-part2-pos1{
+    left: -72px;
+    top: 50px;
+}
+.sec5-part2-pos2{
+    left: 125px;
+    bottom: 275px;
+}
+.sec5-part2-pos3{
+    right: 125px;
+    bottom: 275px;
+}
+.sec5-part2-pos4{
+    right: -210px;
+    bottom: 40px;
+}
+
+/* Part3 of section number five............................................................... */
+
+.sec5-part3{
+    background-color: #e9e7e7;
+    padding: 0 0 50px 0;
+}
+.sec5-part3-main{
+    padding: 50px 0 100px 0;
+}
+.col-40{
+    width: 40%;
+}
+.col-50{
+    width: 50%;
+}
+.sec5-part3-main-text{
+    font-size: 55px;
+    font-family: 'Cardo', serif;
+}
+.form input{
+    width: 100%;
+    display: block;
+    color: #232323;
+    background-color: #e9e7e7;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    padding: 12px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.form textarea{
+    width: 100%;
+    display: block;
+    color: #232323;
+    background-color: #e9e7e7;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.form .label{
+    padding: 8px 0;
+}
+.sec5-part3-image img{
+    width: 100%;
+}
+.submit-email{
+    padding: 54px 0 0 0;
+}
+.submit-email button{
+    width: 100%;
+    display: block;
+    color: #e9e7e7;
+    font-size: 20px;
+    background-color: #232323;
+    font-family: 'Lato', sans-serif;
+    padding: 12px 0 12px 0;
+    border-radius: 5px;
+}
+
+/* section number six..................................................... */
+
+.sec-six{
+    background-color: #c4c4c4;
+    position: relative;
+}
+.col-30{
+    width: 30%;
+}
+.col-15{
+    width: 15%;
+}
+.sec-six .main-heading h3{
+    font-family: 'Cardo', serif;
+    color: #232323;
+    font-size: 50px;
+    padding: 0 90px 50px 0;
+    letter-spacing: -1px;
+    line-height: 40px;
+}
+.sec-six .col1-bold-text{
+    font-family: 'Lato', sans-serif;
+    color: #232323;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    line-height: 20px;
+    padding: 0 0 30px 0;
+}
+.sec-six .col-simple-text h6{
+    font-family: 'Lato', sans-serif;
+    word-spacing: -1px;
+    color: #232323;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.sec-six .col-padd{
+    padding: 50px 0 0 0;
+}
+.sec-six-main{
+    padding: 100px 0 50px 0;
+}
+.sec-six-main-text{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    word-spacing: -1px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 80px 0 100px 0;
+}
+
+/* Position part...................................... */
+.sec-six-pos{
+    position: absolute;
+}
+.sec-six-pos1{
+    left: -450px;
+    bottom: 50px;
+}
