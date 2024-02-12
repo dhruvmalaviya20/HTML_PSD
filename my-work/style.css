@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
 
 /* section number one................................................. */
 
-.container{
+.container {
     width: 100%;
     margin: 0 auto;
 }
 
-.sec-one{
+.sec-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.438)), url(../my-work/img/main-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,82 +19,81 @@
     overflow: hidden;
 }
 
-.ali{
+.ali {
     align-items: center;
-    /* padding: 5px 0; */
-    /* line-height: 50px; */
 }
-.logo{
+
+.logo {
     width: 100px;
-    
+
 }
-.logo img{
+
+.logo img {
     width: 100%;
     /* vertical-align: middle; */
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.jsc{
+.jsc {
     justify-content: space-between;
-    /* justify-content: space-evenly; */
 }
 
-.link ul li{
+.link ul li {
     display: inline-block;
     margin: 60px 0px 60px 80px;
 }
 
-.link ul li a{
+.link ul li a {
     color: white;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 20px;
 }
 
-i{
+i {
     color: white;
     font-size: 20px;
 }
 
-.home-sec{
+.home-sec {
     padding: 80px 0 100px 0;
 }
 
-.main-home-text{
+.main-home-text {
     padding: 0 0 100px 0;
 }
-.main-home-text h1{
+
+.main-home-text h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 100px;
     font-family: sans-serif;
     color: white;
-    /* margin: 0 0 30px 0; */
 }
-.main-home-text p{
+
+.main-home-text p {
     width: 50%;
     margin: 30px auto;
     text-align: center;
-    /* text-transform: uppercase; */
     font-size: 25px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.order-now{
-    /* display: inline-block; */
-    /* margin: 0 auto; */
+.order-now {
     text-align: center;
 }
-.setup{
+
+.setup {
     padding-bottom: 20px;
 }
-.order-now button{
+
+.order-now button {
     border-radius: 4px;
     padding: 10px 40px;
     background-color: #f6d365;
@@ -106,114 +105,129 @@ i{
 
 /* section number two................................. */
 
-.sec-two{
+.sec-two {
     background-color: #f6d365;
     position: relative;
     overflow: hidden;
 }
 
-.sec-two-main .sec-two-text h3{
+.sec-two-main .sec-two-text h3 {
     text-align: center;
     font-size: 65px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-two-text{
+
+.sec-two-text {
     padding: 50px 0;
 }
-.sec-two-text p{
+
+.sec-two-text p {
     width: 50%;
     margin: 20px auto;
     text-align: center;
-    /* text-transform: uppercase; */
     font-size: 25px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
 }
-.card .col-30{
+
+.card .col-30 {
     width: 100%;
     padding: 0 0 98px 0;
-    /* border: solid black; */
 }
-.card img{
+
+.card img {
+    position: relative;
     width: 100%;
+    z-index: 100;
 }
-.card h3{
+
+.card h3 {
     text-align: center;
     padding: 10px 0;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-.card p{
+
+.card p {
     width: 70%;
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 /* -----sec-two image positions----- */
-.s2-pos{
+.s2-pos {
     position: absolute;
 }
-.i-two-1{
+
+.i-two-1 {
     top: 40px;
     left: -70px;
 }
-.i-two-2{
+
+.i-two-2 {
     top: 25px;
     left: 250px;
 }
-.i-two-3{
+
+.i-two-3 {
     top: 30px;
     right: 300px;
 }
-.i-two-4{
+
+.i-two-4 {
     top: 40px;
     right: 50px;
 }
-.i-two-5{
-    /* z-index: -1; */
-    bottom: 50px;
-    left: 20px;
+
+.i-two-5 {
+    bottom: 80px;
+    left: 60px;
 }
-.i-two-6{
+
+.i-two-6 {
     bottom: 25px;
     left: 450px;
 }
-.i-two-7{
+
+.i-two-7 {
     bottom: 30px;
     right: 450px;
 }
-.i-two-8{
+
+.i-two-8 {
     bottom: 40px;
     right: -80px;
 }
 
 /* section number three.............................. */
 
-.sec-three{
+.sec-three {
     background-color: #333333;
     padding: 50px 0;
     overflow: hidden;
+    position: relative;
 }
 
-.sec-three-main .col-30{
-    width: 100%;
-    /* border: 1px solid white; */
-}
-
-.sec-three-main .col-50{
-    width: 100%;
-    /* border: 1px solid white; */
-}
-
-.sec-three-main img{
+.sec-three-main .col-30 {
     width: 100%;
 }
 
-.sec-three h4{
+.sec-three-main .col-50 {
+    width: 100%;
+}
+
+.sec-three-main img {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.sec-three h4 {
     font-size: 70px;
     text-transform: uppercase;
     color: white;
@@ -222,7 +236,7 @@ i{
     margin: 20px 0;
 }
 
-.sec-three p{
+.sec-three p {
     width: 95%;
     color: white;
     font-size: 30px;
@@ -230,11 +244,11 @@ i{
     margin: 20px 0;
 }
 
-.setup{
+.setup {
     padding: 20px 0;
 }
 
-.order-now-2 button{
+.order-now-2 button {
     border-radius: 4px;
     padding: 10px 40px;
     background-color: #f6d365;
@@ -244,86 +258,136 @@ i{
     text-transform: uppercase;
 }
 
+/* Section three position part............ */
+
+.s3-pos {
+    position: absolute;
+}
+
+.i-three-1 {
+    top: 30px;
+    left: 30px;
+}
+
+.i-three-2 {
+    top: 40px;
+    left: 650px;
+}
+
+.i-three-3 {
+    top: 40px;
+    right: 450px;
+}
+
+.i-three-4 {
+    top: -120px;
+    right: -70px;
+}
+
+.i-three-5 {
+    bottom: 70px;
+    left: 80px;
+}
+
+.i-three-6 {
+    bottom: 150px;
+    left: 650px;
+}
+
+.i-three-7 {
+    bottom: 30px;
+    right: 450px;
+}
+
+.i-three-8 {
+    bottom: 50px;
+    right: 60px;
+    width: 10%;
+}
+
+.i-three-9 {
+    top: 200px;
+    right: 50px;
+}
+
+
 /* Section number four................................ */
 
-.sec-four{
+.sec-four {
     background-color: #f6d365;
     overflow: hidden;
 }
 
-.sec-four-main h5{
+.sec-four-main h5 {
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
     font-family: sans-serif;
-    color:  black;
+    color: black;
 }
 
-.sec-four-main p{
+.sec-four-main p {
     width: 50%;
     margin: 30px auto;
     text-align: center;
-    /* text-transform: uppercase; */
     font-size: 25px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     color: rgb(6, 6, 6);
 }
 
-.sec-four-card .col-30{
+.sec-four-card .col-30 {
     width: 100%;
     padding: 98px 0 98px 0;
     border: 10px solid black;
 }
 
-.sec-four-card .main-t{
+.sec-four-card .main-t {
     text-align: center;
-    /* padding: 10px 0; */
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-four-card .sub-t{
+
+.sec-four-card .sub-t {
     font-size: 40px;
-    padding: 20px 0 0 0 ;
-    /* margin: 0 auto; */
+    padding: 20px 0 0 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.sec-four-card{
+.sec-four-card {
     padding: 30px 0;
 }
 
-.padd-setup{
+.padd-setup {
     padding: 60px 0 90px 0;
 }
 
 /* section number five................................ */
 
-.sec-five{
+.sec-five {
     background-color: #333333;
     padding: 50px 0;
     overflow: hidden;
 }
 
-.sec-five-main .col-30{
+.sec-five-main .col-30 {
     width: 100%;
-    /* border: 1px solid white; */
 }
 
-.space{
+.space {
     justify-content: space-evenly;
 }
-.sec-five-main .col-50{
-    width: 100%;
-    /* border: 1px solid white; */
-}
 
-.sec-five-main img{
+.sec-five-main .col-50 {
     width: 100%;
 }
 
-.sec-five h6{
+.sec-five-main img {
+    width: 100%;
+}
+
+.sec-five h6 {
     font-size: 70px;
     text-transform: uppercase;
     color: white;
@@ -332,7 +396,7 @@ i{
     margin: 20px 0;
 }
 
-.sec-five p{
+.sec-five p {
     width: 95%;
     color: white;
     font-size: 30px;
@@ -340,11 +404,11 @@ i{
     margin: 20px 0;
 }
 
-.setup{
+.setup {
     padding: 20px 0;
 }
 
-.order-now-2 button{
+.order-now-2 button {
     border-radius: 4px;
     padding: 10px 40px;
     background-color: #f6d365;
@@ -357,7 +421,7 @@ i{
 
 /* section number six................................. */
 
-.main-part{
+.main-part {
     background-image: linear-gradient(rgba(255, 255, 255, 0.792), rgba(255, 255, 255, 0.732)), url(../my-work/img/main-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -365,28 +429,27 @@ i{
     overflow: hidden;
 }
 
-.image{
+.image {
     width: 30%;
     margin: 0 auto;
     padding: 100px 0 90px 0;
 }
 
-.image img{
+.image img {
     width: 100%;
 }
 
-.text-part p{
+.text-part p {
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    /* text-transform: uppercase; */
     font-size: 25px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
 
-.title-text h2{
+.title-text h2 {
     text-align: center;
     padding: 30px 0 100px 0;
     font-weight: bolder;
@@ -395,32 +458,32 @@ i{
     color: #333333;
 }
 
-.title-padd{
+.title-padd {
     padding-bottom: 70px;
 }
 
 /* section number seven......................... */
 
-.sec-seven{
+.sec-seven {
     background-color: #f6d365;
     overflow: hidden;
 }
 
-.sec-seven-main{
+.sec-seven-main {
     padding: 100px 0;
 }
-.sec-seven-sub-text p{
+
+.sec-seven-sub-text p {
     width: 70%;
     margin: 0 auto;
     padding: 30px 0 80px 0;
     text-align: center;
-    /* text-transform: uppercase; */
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
 
-.sec-seven-main-text h1{
+.sec-seven-main-text h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
@@ -429,8 +492,7 @@ i{
     color: #333333;
 }
 
-.input-box input{
-    /* display: inline-block; */
+.input-box input {
     width: 30%;
     padding: 12px;
     border-radius: 4px;
@@ -438,14 +500,14 @@ i{
     border: none;
 }
 
-.input-box{
+.input-box {
     text-align: center;
     position: relative;
     padding: 0 0 100px 0;
     justify-content: center;
 }
 
-.input-box button{
+.input-box button {
     padding: 12px;
     margin-left: -5px;
     text-align: center;
@@ -456,198 +518,1327 @@ i{
     border: none;
 }
 
-.padding{
+.padding {
     padding: 65px 0;
 }
 
 /* section number eight............................... */
 
-.sec-eight{
+.sec-eight {
     background-color: #333333;
     overflow: hidden;
 }
 
-.sec-eight-main{
+.sec-eight-main {
     color: white;
     padding: 100px 0;
 }
-.sec-eight-main .col-30{
-    width: 30%;
-}
-.sec-eight-col-60{
-    width: 60%;
-}
-.sec-eight-col-60 .col-30{
-    width: 30%;
-    /* justify-content: space-evenly; */
+
+.sec-eight-main .col-30 {
+    width: 100%;
 }
 
-.sec-eight-main .col-30 h1{
+.sec-eight-col-60 {
+    width: 100%;
+}
+
+.sec-eight-col-60 .col-30 {
+    width: 100%;
+}
+
+.sec-eight-main .col-30 h1 {
     font-size: 30px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-eight-main .col-30 p{
+
+.sec-eight-main .col-30 p {
     padding: 30px 0;
     width: 85%;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-eight-main .col-30 i{
+
+.sec-eight-main .col-30 i {
     font-size: 25px;
     display: inline-block;
     margin: 0 5px;
 }
 
-.sec-eight-col-60 .col-30 .main-h2 h2{
+.sec-eight-col-60 .col-30 .main-h2 h2 {
     font-size: 30px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-eight-col-60 .col-30 .sub-h2 h2{
+
+.sec-eight-col-60 .col-30 .sub-h2 h2 {
     font-size: 18px;
     font-weight: 300;
     padding: 5px 0;
     font-family: 'Montserrat', sans-serif;
 }
-.sub-h2{
+
+.sub-h2 {
     padding: 20px 0 0 0;
 }
 
-.padd-set{
+.padd-set {
     padding: 100px 0;
 }
 
-.sec-eight-col-60 .col-30 .main-h3 h3{
+.sec-eight-col-60 .col-30 .main-h3 h3 {
     font-size: 30px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-eight-col-60 .col-30 .sub-h3 h3{
+
+.sec-eight-col-60 .col-30 .sub-h3 h3 {
     font-size: 18px;
     font-weight: 300;
     padding: 5px 0;
     font-family: 'Montserrat', sans-serif;
 }
-.sub-h3{
+
+.sub-h3 {
     padding: 20px 0 0 0;
 }
 
-.sec-eight-col-60 .col-30 .main-h4 h4{
+.sec-eight-col-60 .col-30 .main-h4 h4 {
     font-size: 30px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
 }
-.sec-eight-col-60 .col-30 .sub-h4 h4{
+
+.sec-eight-col-60 .col-30 .sub-h4 h4 {
     font-size: 18px;
     font-weight: 300;
     padding: 5px 0;
     font-family: 'Montserrat', sans-serif;
 }
-.sub-h4{
+
+.sub-h4 {
     padding: 20px 0 0 0;
 }
 
 
 /* @media quary part............................................................................................ */
 
-@media(min-width:768px){
-    .container{
-        width: 718px;
+@media(min-width:320px) {
+    .container {
+        width: 270;
     }
-    .card .col-30{
+
+    .card .col-30 {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .main-home-text h1 {
+        font-size: 35px;
+    }
+
+    .main-home-text p {
+        width: 90%;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .sec-two-main .sec-two-text h3 {
+        font-size: 15px;
+    }
+
+    .sec-two-text p {
+        width: 90%;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .s2-card-text p {
+        width: 90%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .sec-three-main .col-30 {
+        width: 30%;
+    }
+
+    .sec-three-main .col-50 {
+        width: 60%;
+    }
+
+    .sec-three-main h4 {
+        font-size: 15px;
+    }
+
+    .sec-three p {
+        width: 100%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .sec-four-card .col-30 {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .sec-four-main h5 {
+        font-size: 20px;
+    }
+
+    .sec-four-main p {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .sec-five-main .col-30 {
+        width: 30%;
+    }
+
+    .sec-five-main .col-50 {
+        width: 60%;
+    }
+
+    .sec-five-main h6 {
+        font-size: 15px;
+    }
+
+    .sec-five p {
+        width: 100%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .sec-six .image {
+        width: 18%;
+    }
+
+    .sec-six .text-part p {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .sec-six .title-text h2 {
+        font-size: 20px;
+    }
+
+    .sec-seven-main-text h1 {
+        font-size: 20px;
+    }
+
+    .sec-seven-sub-text p {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .sec-eight-main .col-30 {
+        width: 100%;
+    }
+
+    .sec-eight-main .col-60 {
+        width: 70%;
+    }
+
+    .sec-eight-col-60 .col-30 {
+        width: 33%;
+        padding: 30px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .sec-eight-main .col-30 h1 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sec-eight-main .col-30 p {
+        text-align: center;
+        margin: 0 auto;
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .sec-eight-main .logos {
+        display: block;
+        text-align: center;
+    }
+
+    .sec-eight-main .col-30 i {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h2 h2 {
+        font-size: 30px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h2 h2 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h3 h3 {
+        font-size: 30px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h3 h3 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h4 h4 {
+        font-size: 30px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h4 h4 {
+        font-size: 20px;
+    }
+
+    /* @-----possitions............... */
+
+    .i-two-1 {
+        top: 20px;
+        left: -25px;
+        width: 20%;
+    }
+
+    .i-two-2 {
+        top: 16px;
+        left: 60px;
+        width: 12%;
+    }
+
+    .i-two-3 {
+        top: 16px;
+        right: 60px;
+        width: 12%;
+    }
+
+    .i-two-4 {
+        top: 20px;
+        right: 5px;
+        width: 16%;
+    }
+
+    .i-two-5 {
+        bottom: 20px;
+        left: 20px;
+        width: 20%;
+    }
+
+    .i-two-6 {
+        bottom: 25px;
+        left: 115px;
+        width: 13%;
+    }
+
+    .i-two-7 {
+        bottom: 25px;
+        right: 90px;
+        width: 13%;
+    }
+
+    .i-two-8 {
+        bottom: 25px;
+        right: -20px;
+        width: 20%;
+    }
+
+    .i-three-1 {
+        top: 20px;
+        left: -25px;
+        width: 20%;
+    }
+
+    .i-three-2 {
+        top: 16px;
+        left: 60px;
+        width: 12%;
+    }
+
+    .i-three-3 {
+        top: 16px;
+        right: 60px;
+        width: 12%;
+    }
+
+    .i-three-4 {
+        top: -10px;
+        right: -10px;
+        width: 16%;
+    }
+
+    .i-three-5 {
+        bottom: 20px;
+        left: 20px;
+        width: 20%;
+    }
+
+    .i-three-6 {
+        bottom: 25px;
+        left: 115px;
+        width: 13%;
+    }
+
+    .i-three-7 {
+        bottom: 25px;
+        right: 90px;
+        width: 13%;
+    }
+
+    .i-three-8 {
+        bottom: 25px;
+        right: -20px;
+        width: 20%;
+    }
+
+    .i-three-9 {
+        top: 65px;
+        right: 10px;
+        width: 13%;
+    }
+}
+
+
+@media(min-width:520px) {
+    .container {
+        width: 470;
+    }
+
+    .card .col-30 {
         width: 45%;
         margin: 0 auto;
     }
-    .sec-three-main .col-30{
+
+    .main-home-text h1 {
+        font-size: 45px;
+    }
+
+    .main-home-text p {
+        width: 75%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .sec-two-main .sec-two-text h3 {
+        font-size: 20px;
+    }
+
+    .sec-two-text p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .s2-card-text p {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .sec-three-main .col-30 {
         width: 30%;
     }
-    .sec-three-main .col-50{
+
+    .sec-three-main .col-50 {
         width: 50%;
     }
-    .sec-four-card .col-30{
+
+    .sec-three-main h4 {
+        font-size: 20px;
+    }
+
+    .sec-three p {
+        width: 95%;
+        font-size: 10px;
+    }
+
+    .sec-four-card .col-30 {
         width: 45%;
-        margin: 20px auto;
+        margin: 10px auto;
     }
-    .sec-five-main .col-30{
+
+    .sec-four-main h5 {
+        font-size: 30px;
+    }
+
+    .sec-four-main p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .sec-five-main .col-30 {
         width: 30%;
     }
-    .sec-five-main .col-50{
+
+    .sec-five-main .col-50 {
         width: 50%;
     }
-    .sec-eight-main .col-30{
-        width: 30%;
+
+    .sec-five-main h6 {
+        font-size: 20px;
     }
-    .sec-eight-main .col-60{
+
+    .sec-five p {
+        width: 95%;
+        font-size: 10px;
+    }
+
+    .sec-six .image {
+        width: 18%;
+    }
+
+    .sec-six .text-part p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .sec-six .title-text h2 {
+        font-size: 25px;
+    }
+
+    .sec-seven-main-text h1 {
+        font-size: 20px;
+    }
+
+    .sec-seven-sub-text p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .sec-eight-main .col-30 {
+        width: 100%;
+    }
+
+    .sec-eight-main .col-60 {
         width: 60%;
     }
-    .sec-eight-col-60 .col-30{
+
+    .sec-eight-col-60 .col-30 {
         width: 30%;
+    }
+
+    .sec-eight-main .col-30 h1 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sec-eight-main .col-30 p {
+        text-align: center;
+        margin: 0 auto;
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .sec-eight-main .logos {
+        display: block;
+        text-align: center;
+    }
+
+    .sec-eight-main .col-30 i {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h2 h2 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h2 h2 {
+        font-size: 15px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h3 h3 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h3 h3 {
+        font-size: 15px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h4 h4 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h4 h4 {
+        font-size: 15px;
+    }
+
+    /* @-----possitions............... */
+
+    .i-two-1 {
+        top: 20px;
+        left: -30px;
+        width: 20%;
+    }
+
+    .i-two-2 {
+        top: 16px;
+        left: 95px;
+        width: 12%;
+    }
+
+    .i-two-3 {
+        top: 16px;
+        right: 95px;
+        width: 12%;
+    }
+
+    .i-two-4 {
+        top: 10px;
+        right: 5px;
+        width: 16%;
+    }
+
+    .i-two-5 {
+        bottom: 20px;
+        left: 20px;
+        width: 20%;
+    }
+
+    .i-two-6 {
+        bottom: 25px;
+        left: 160px;
+        width: 13%;
+    }
+
+    .i-two-7 {
+        bottom: 25px;
+        right: 150px;
+        width: 13%;
+    }
+
+    .i-two-8 {
+        bottom: 25px;
+        right: -20px;
+        width: 20%;
+    }
+
+    .i-three-1 {
+        top: 15px;
+        left: -25px;
+        width: 20%;
+    }
+
+    .i-three-2 {
+        top: 16px;
+        left: 180px;
+        width: 12%;
+    }
+
+    .i-three-3 {
+        top: 16px;
+        right: 150px;
+        width: 12%;
+    }
+
+    .i-three-4 {
+        top: -20px;
+        right: -20px;
+        width: 16%;
+    }
+
+    .i-three-5 {
+        bottom: 10px;
+        left: 10px;
+        width: 10%;
+    }
+
+    .i-three-6 {
+        bottom: 15px;
+        left: 180px;
+        width: 13%;
+    }
+
+    .i-three-7 {
+        bottom: 20px;
+        right: 130px;
+        width: 13%;
+    }
+
+    .i-three-8 {
+        bottom: 25px;
+        right: 5px;
+        width: 15%;
+    }
+
+    .i-three-9 {
+        top: 85px;
+        right: 10px;
+        width: 10%;
     }
 }
 
-@media(min-width:992px){
-    .container{
+@media(min-width:768px) {
+    .container {
+        width: 718px;
+    }
+
+    .card .col-30 {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .main-home-text h1 {
+        font-size: 55px;
+    }
+
+    .main-home-text p {
+        width: 65%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .sec-two-main .sec-two-text h3 {
+        font-size: 30px;
+    }
+
+    .sec-two-text p {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .s2-card-text p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .sec-three-main .col-30 {
+        width: 30%;
+    }
+
+    .sec-three-main .col-50 {
+        width: 50%;
+    }
+
+    .sec-three-main h4 {
+        font-size: 30px;
+    }
+
+    .sec-three p {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .sec-four-card .col-30 {
+        width: 45%;
+        margin: 10px auto;
+    }
+
+    .sec-four-main h5 {
+        font-size: 30px;
+    }
+
+    .sec-four-main p {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .sec-five-main .col-30 {
+        width: 30%;
+    }
+
+    .sec-five-main .col-50 {
+        width: 50%;
+    }
+
+    .sec-five-main h6 {
+        font-size: 30px;
+    }
+
+    .sec-five p {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .sec-six .image {
+        width: 18%;
+    }
+
+    .sec-six .text-part p {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .sec-six .title-text h2 {
+        font-size: 25px;
+    }
+
+    .sec-seven-main-text h1 {
+        font-size: 30px;
+    }
+
+    .sec-seven-sub-text p {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .sec-eight-main .col-30 {
+        width: 100%;
+    }
+
+    .sec-eight-main .col-60 {
+        width: 60%;
+    }
+
+    .sec-eight-col-60 .col-30 {
+        width: 30%;
+    }
+
+    .sec-eight-main .col-30 h1 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sec-eight-main .col-30 p {
+        text-align: center;
+        margin: 0 auto;
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .sec-eight-main .logos {
+        display: block;
+        text-align: center;
+    }
+
+    .sec-eight-main .col-30 i {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+
+    .sec-eight-col-60 .col-30 .main-h2 h2 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h2 h2 {
+        font-size: 15px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h3 h3 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h3 h3 {
+        font-size: 15px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h4 h4 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h4 h4 {
+        font-size: 15px;
+    }
+
+    /* @-----possitions............... */
+
+    .i-two-1 {
+        top: 20px;
+        left: -50px;
+        width: 20%;
+    }
+
+    .i-two-2 {
+        top: 16px;
+        left: 145px;
+        width: 10%;
+    }
+
+    .i-two-3 {
+        top: 16px;
+        right: 145px;
+        width: 10%;
+    }
+
+    .i-two-4 {
+        top: 10px;
+        right: 5px;
+        width: 16%;
+    }
+
+    .i-two-5 {
+        bottom: 20px;
+        left: 20px;
+        width: 20%;
+    }
+
+    .i-two-6 {
+        bottom: 20px;
+        left: 230px;
+        width: 10%;
+    }
+
+    .i-two-7 {
+        bottom: 20px;
+        right: 200px;
+        width: 13%;
+    }
+
+    .i-two-8 {
+        bottom: 25px;
+        right: -20px;
+        width: 20%;
+    }
+
+    .i-three-1 {
+        top: 15px;
+        left: -25px;
+        width: 20%;
+    }
+
+    .i-three-2 {
+        top: 16px;
+        left: 300px;
+        width: 10%;
+    }
+
+    .i-three-3 {
+        top: 16px;
+        right: 180px;
+        width: 10%;
+    }
+
+    .i-three-4 {
+        top: -20px;
+        right: -20px;
+        width: 16%;
+    }
+
+    .i-three-5 {
+        bottom: 10px;
+        left: 10px;
+        width: 15%;
+    }
+
+    .i-three-6 {
+        bottom: 15px;
+        left: 290px;
+        width: 10%;
+    }
+
+    .i-three-7 {
+        bottom: 20px;
+        right: 190px;
+        width: 10%;
+    }
+
+    .i-three-8 {
+        bottom: 25px;
+        right: 15px;
+        width: 15%;
+    }
+
+    .i-three-9 {
+        top: 125px;
+        right: 10px;
+        width: 8%;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
         width: 942px;
     }
-    .card .col-30{
+
+    .main-home-text h1 {
+        font-size: 65px;
+    }
+
+    .main-home-text p {
+        width: 55%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .card .col-30 {
         width: 30%;
     }
-    .sec-three-main .col-30{
+
+    .sec-two-main .sec-two-text h3 {
+        font-size: 40px;
+    }
+
+    .sec-two-text p {
+        width: 60%;
+        font-size: 18px;
+    }
+
+    .s2-card-text p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .sec-three-main .col-30 {
         width: 30%;
     }
-    .sec-three-main .col-50{
+
+    .sec-three-main .col-50 {
         width: 50%;
     }
-    .sec-four-card .col-30{
+
+    .sec-three-main h4 {
+        font-size: 40px;
+    }
+
+    .sec-three p {
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .sec-four-card .col-30 {
         width: 30%;
     }
-    .sec-five-main .col-30{
+
+    .sec-five-main .col-30 {
         width: 30%;
     }
-    .sec-five-main .col-50{
+
+    .sec-four-main h5 {
+        font-size: 40px;
+    }
+
+    .sec-four-main p {
+        width: 50%;
+        font-size: 17px;
+    }
+
+    .sec-five-main .col-50 {
         width: 50%;
     }
-    .sec-eight-main .col-30{
+
+    .sec-five-main h6 {
+        font-size: 40px;
+    }
+
+    .sec-five p {
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .sec-six .image {
+        width: 20%;
+    }
+
+    .sec-six .text-part p {
+        width: 70%;
+        font-size: 23px;
+    }
+
+    .sec-six .title-text h2 {
+        font-size: 30px;
+    }
+
+    .sec-seven-main-text h1 {
+        font-size: 40px;
+    }
+
+    .sec-seven-sub-text p {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .sec-eight-main .col-30 {
         width: 30%;
     }
-    .sec-eight-main .col-60{
+
+    .sec-eight-main .col-60 {
         width: 60%;
     }
-    .sec-eight-col-60 .col-30{
+
+    .sec-eight-col-60 .col-30 {
         width: 30%;
+    }
+
+    .sec-eight-main .col-30 h1 {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sec-eight-main .col-30 p {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .sec-eight-main .col-30 i {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h2 h2 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h2 h2 {
+        font-size: 15px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h3 h3 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h3 h3 {
+        font-size: 15px;
+    }
+
+    .sec-eight-col-60 .col-30 .main-h4 h4 {
+        font-size: 20px;
+    }
+
+    .sec-eight-col-60 .col-30 .sub-h4 h4 {
+        font-size: 15px;
+    }
+
+    /* @-----possitions............... */
+
+    .i-two-1 {
+        top: 20px;
+        left: -60px;
+        width: 20%;
+    }
+
+    .i-two-2 {
+        top: 16px;
+        left: 205px;
+        width: 10%;
+    }
+
+    .i-two-3 {
+        top: 16px;
+        right: 195px;
+        width: 10%;
+    }
+
+    .i-two-4 {
+        top: 10px;
+        right: 5px;
+        width: 16%;
+    }
+
+    .i-two-5 {
+        bottom: 20px;
+        left: 20px;
+        width: 15%;
+    }
+
+    .i-two-6 {
+        bottom: 20px;
+        left: 290px;
+        width: 10%;
+    }
+
+    .i-two-7 {
+        bottom: 20px;
+        right: 290px;
+        width: 10%;
+    }
+
+    .i-two-8 {
+        bottom: 25px;
+        right: -70px;
+        width: 20%;
+    }
+
+    .i-three-1 {
+        top: 15px;
+        left: -25px;
+        width: 15%;
+    }
+
+    .i-three-2 {
+        top: 16px;
+        left: 390px;
+        width: 8%;
+    }
+
+    .i-three-3 {
+        top: 16px;
+        right: 240px;
+        width: 8%;
+    }
+
+    .i-three-4 {
+        top: -60px;
+        right: -30px;
+        width: 16%;
+    }
+
+    .i-three-5 {
+        bottom: 70px;
+        left: 10px;
+        width: 8%;
+    }
+
+    .i-three-6 {
+        bottom: 15px;
+        left: 380px;
+        width: 10%;
+    }
+
+    .i-three-7 {
+        bottom: 20px;
+        right: 240px;
+        width: 10%;
+    }
+
+    .i-three-8 {
+        bottom: 25px;
+        right: 35px;
+        width: 15%;
+    }
+
+    .i-three-9 {
+        top: 125px;
+        right: 50px;
+        width: 6%;
     }
 }
 
-@media(min-width:1200px){
-    .container{
+@media(min-width:1200px) {
+    .container {
         width: 1150px;
     }
-    .card .col-30{
+
+    .card .col-30 {
         width: 30%;
     }
-    .sec-three-main .col-30{
+
+    .sec-three-main .col-30 {
         width: 30%;
     }
-    .sec-three-main .col-50{
+
+    .sec-three-main .col-50 {
         width: 50%;
     }
-    .sec-four-card .col-30{
+
+    .sec-four-card .col-30 {
         width: 30%;
     }
-    .sec-five-main .col-30{
+
+    .sec-five-main .col-30 {
         width: 30%;
     }
-    .sec-five-main .col-50{
+
+    .sec-five-main .col-50 {
         width: 50%;
     }
-    .sec-eight-main .col-30{
+
+    .sec-eight-main .col-30 {
         width: 30%;
     }
-    .sec-eight-main .col-60{
+
+    .sec-eight-main .col-60 {
         width: 60%;
     }
-    .sec-eight-col-60 .col-30{
+
+    .sec-eight-col-60 .col-30 {
         width: 30%;
+    }
+
+    /* @---------position part............. */
+    
+    .i-two-1 {
+        top: 20px;
+        left: -60px;
+        width: 15%;
+    }
+
+    .i-two-2 {
+        top: 16px;
+        left: 205px;
+        width: 8%;
+    }
+
+    .i-two-3 {
+        top: 16px;
+        right: 285px;
+        width: 8%;
+    }
+
+    .i-two-4 {
+        top: 10px;
+        right: 30px;
+        width: 16%;
+    }
+
+    .i-two-5 {
+        bottom: 20px;
+        left: 20px;
+        width: 13%;
+    }
+
+    .i-two-6 {
+        bottom: 20px;
+        left: 350px;
+        width: 8%;
+    }
+
+    .i-two-7 {
+        bottom: 20px;
+        right: 350px;
+        width: 8%;
+    }
+
+    .i-two-8 {
+        bottom: 25px;
+        right: -70px;
+        width: 15%;
+    }
+
+    .i-three-1 {
+        top: 15px;
+        left: -25px;
+        width: 12%;
+    }
+
+    .i-three-2 {
+        top: 16px;
+        left: 470px;
+        width: 8%;
+    }
+
+    .i-three-3 {
+        top: 16px;
+        right: 330px;
+        width: 8%;
+    }
+
+    .i-three-4 {
+        top: -80px;
+        right: -30px;
+        width: 15%;
+    }
+
+    .i-three-5 {
+        bottom: 90px;
+        left: 10px;
+        width: 6%;
+    }
+
+    .i-three-6 {
+        bottom: 60px;
+        left: 460px;
+        width: 8%;
+    }
+
+    .i-three-7 {
+        bottom: 50px;
+        right: 290px;
+        width: 8%;
+    }
+
+    .i-three-8 {
+        bottom: 25px;
+        right: 35px;
+        width: 13%;
+    }
+
+    .i-three-9 {
+        top: 165px;
+        right: 100px;
+        width: 6%;
     }
 }
